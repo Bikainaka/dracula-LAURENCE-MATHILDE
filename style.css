@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "@fontsource/UnifrakturCook";
+@import "lucide-static/font/lucide.css";
+@import "animate.css";
+
+@plugin "daisyui";
+
+@theme {
+ --font-sans: "UnifrakturCook", sans-serif ;
+}
+
+@plugin "daisyui" {
+  themes: dracula --default;
+}
